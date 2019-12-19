@@ -6,14 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script src="scripts/datahandler.js"></script>
+    <link rel="stylesheet" href="./style/appscreen.css">
     <link rel="icon" href="./img/mars-favicon.ico" type="image/x-icon/">
-    <script src="https://www.koolchart.com/demo/LicenseKey/KoolChartLicense.js"></script>
-    <script src="https://www.koolchart.com/demo/KoolChart/JS/KoolChart.js"></script>
-    <link rel="stylesheet" href="https://www.koolchart.com/demo/KoolChart/Assets/Css/KoolChart.css"/>
-    <link rel="stylesheet" href="https://www.koolchart.com/demo/Samples/Web/sample.css"/>
 </head>
 <body>
-        <div class="js-data"></div>
-        <div id="chartHolder" style="width:100%; height:500px;"></div>
+    <header>
+        <h1 class="logo">Mars Insight</h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+    </header>
+    <div class="content" id="content">
+        <div class="o-title">
+            Latest Weather at Elysium Planitia
+        </div>
+        <div class="o-text">
+            InSight is taking daily weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Planitia, a flat, smooth plain near Mars’ equator.  
+        </div>
+    </div>
 </body>
 </html>

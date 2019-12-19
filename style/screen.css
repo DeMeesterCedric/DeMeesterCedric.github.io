@@ -60,13 +60,13 @@ header {
     max-width: 20vh;
   }
 
-.o-info{
+.o-text{
     font-size: 18px;
     color: white;
     font-weight: normal;
 }
 
-div.o-thin-text{
+div.o-small-text{
     padding-bottom: 5px;
     font-size: 14px;
     color: white;
@@ -242,7 +242,7 @@ nav a:hover {
     grid-column: 1/3;
 }
 
-.o-info{
+.o-text{
     font-size: 24px;
     color: white;
     font-weight: normal;
@@ -261,7 +261,7 @@ nav a:hover {
     vertical-align: top;
   }
 
-div.o-thin-text{
+div.o-small-text{
     padding-bottom: 10px;
     font-size: 18px;
     color: white;
