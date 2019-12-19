@@ -253,10 +253,11 @@ nav a:hover {
 		height: 5px;
 		background: black;
 		position: absolute;
-		top: -.75em;
+		bottom: -.75em;
 		left: 0;
 		right: 0;
-		transform: scale(0, 1);
+        transform: scale(0, 1);
+        transform-origin: left;
 		transition: transform ease-in-out 250ms;
 	}
 	nav a:hover::before {
