@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mars weather</title>
-    <script src="scripts/datahandler.js"></script>
+    <title>ETH/BTC</title>
+    <script src="scripts/chart.js"></script>
     <link rel="stylesheet" href="./style/appscreen.css">
-    <link rel="icon" href="./img/mars-favicon.ico" type="image/x-icon/">
+    <link rel="icon" href="./img/eth-favicon.ico" type="image/x-icon/">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js" integrity="sha256-vyehT44mCOPZg7SbqfOZ0HNYXjPKgBCaqxBkW3lh6bg=" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class=".o-background-gradient">
     <header>
-        <h1 class="logo">ETH/BTC</h1>
+        <h1 class="logo">Ether Bitcoin</h1>
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav>
             <ul>
-                <li><a href="index.html">Data</a></li>
+                <li><a href="index.html">Info</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Download</a></li>
                 <li><a href="#">Contact</a></li>
@@ -25,13 +26,21 @@
             <span></span>
         </label>
     </header>
-    <div class="content" id="content">
-        <div class="o-title">
-            Latest Weather at Elysium Planitia
+    <div class="o-title">Overview ETH/BTC <span class="js-time">all time</span></div>
+      <div class="grid-container-colums">
+        
+        <div class="c-marginbox">
+          <div class="js-microI">
+              <canvas id="myChart"></canvas>
+          </div>
         </div>
-        <div class="o-text">
-            InSight is taking daily weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Planitia, a flat, smooth plain near Mars’ equator.  
-        </div>
-    </div>
+
+        <div class="grid-container-rows">
+          <button class="o-button js-button-AllTime">All Time</button> 
+          <button href="" class="o-button js-button-2year">2 Years</button> 
+          <button href="" class="o-button js-button-1year">1 Year</button> 
+          <button href="" class="o-button js-button-month">1 Month</button> 
+        <div>
+      </div>
 </body>
 </html>

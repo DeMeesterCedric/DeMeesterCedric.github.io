@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
 :root {
-    --background: rgba(185, 87, 42, 0.85);
+    --background: #2c86f5;
+    --background-light: #97c2f7;
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+.o-background-gradient{
+  background: var(--background);
+  background: linear-gradient(180deg, var(--background) 20%, var(--background-light) 100%);
+  min-height: 100vh;
 }
 
 html{
@@ -22,10 +29,6 @@ body {
 
 .content {
   height: 100%;
-  background-image: url('https://wallpapercave.com/wp/wp2461878.jpg');
-  background-blend-mode: multiply;
-  background-size: 210vh;
-  background-color: rgb(114, 113, 113);
   padding-top: 80px;
   padding-left: 150px;
   padding-right: 50px;
@@ -71,6 +74,7 @@ div.o-small-text{
     font-size: 14px;
     color: white;
   }
+
 
 .nav-toggle {
   position: absolute !important;
