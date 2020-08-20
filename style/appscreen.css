@@ -58,6 +58,7 @@ header {
 	grid-template-rows: repeat(4, 1fr);
 	grid-template-columns: 100%;
 	justify-content: center;
+	justify-items: center;
   }
 
 .o-button,
@@ -71,6 +72,7 @@ header {
 	width: 80%;
 	max-width: 1000px;
 	margin:24px auto;
+	margin-left: 40px;
 	font-size: 20px;
 	text-align: center;
 	border-radius: 8px;
@@ -172,28 +174,6 @@ nav a:hover {
 	transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (max-width: 720px) {
-    div.grid-container-colums{
-      display: grid;
-      grid-template-columns: 100%;
-    }
-
-    .grid-container-rows {
-      grid-template-rows: repeat(2, 1fr);
-      grid-template-columns: repeat(2, 1fr);
-      justify-content: center;
-    }
-    .o-button,
-    .o-button:visited,
-    .o-button:active {
-      font-size: 20px;
-      margin:24px auto;
-    }
-    
-    .o-title{
-      font-size: 24px;
-    }
-  }
 
 @media screen and (min-width: 800px) {
 	body {
