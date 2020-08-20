@@ -94,7 +94,7 @@ const Microinteraction = function()
 
   let myChart = document.getElementById("mychart");
   domData.innerHTML = "";
-	let HTML = '<div class="microinteraction"><div></div><div></div><div></div></div>';
+	let HTML = '<div class="micro-interaction"><div></div><div></div><div></div></div>';
   domData.innerHTML += HTML;
 }
 
