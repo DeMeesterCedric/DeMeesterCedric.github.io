@@ -69,7 +69,7 @@ header {
 	border: 0.5px var(--background) solid;
 	background: var(--color-white);
 	color: var(--color-alpha);
-	width: 80%;
+	width: 40%;
 	max-width: 1000px;
 	margin:24px auto;
 	margin-left: 40px;
@@ -173,7 +173,6 @@ nav a:hover {
 	opacity: 1;
 	transition: opacity 250ms ease-in-out 250ms;
 }
-
 
 @media screen and (min-width: 800px) {
 	body {
